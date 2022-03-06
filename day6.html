@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='day6.css'>
+
+</head>
+
+<body>
+    <h1>Registeration Form</h1>
+    <div class='mainContent'>
+        <div class='labelHolder'>
+            <label>First Name</label>
+        </div>
+        <div class="inputHolder">
+            <!-- not less than 4 char -->
+            <!-- name can not be empty -->
+            <!-- bonus : name can not contain numbers -->
+            <input type="text" />
+            <span></span>
+        </div>
+    </div>
+
+    <div class='mainContent'>
+        <div class='labelHolder'>
+            <label>Last Name</label>
+        </div>
+        <div class="inputHolder">
+            <!-- not less than 4 char -->
+            <!-- name can not be empty -->
+            <!-- bonus : name can not contain numbers -->
+            <input type="text" />
+            <span></span>
+        </div>
+    </div>
+    <div class='mainContent'>
+        <div class='labelHolder'>
+            <label>Age</label>
+        </div>
+        <div class="inputHolder">
+            <!-- not less than 16 char and not more than 50 -->
+            <!-- age can not be empty -->
+
+            <input type="text" />
+            <span></span>
+        </div>
+    </div>
+    <div class='mainContent'>
+        <div class='labelHolder'>
+            <label>Password</label>
+        </div>
+        <div class="inputHolder">
+            <!-- not less than 8 char -->
+            <!-- name can not be empty -->
+            <!-- bonus : password must contain numbers and letters -->
+            <input type="password" />
+            <span></span>
+        </div>
+    </div>
+    <div class='mainContent'>
+        <div class='labelHolder'>
+            <label>Gender</label>
+        </div>
+        <div class="inputHolder">
+            <!-- user must check a value -->
+            <input type="radio" name="gender" value="female" id="female" />female
+            <input type="radio" name="gender" value="male"  id="male"/>male
+<span></span>
+        </div>
+    </div>
+    <div class='mainContent'>
+        <div class='labelHolder'>
+            <label>Hoppies</label>
+        </div>
+        <div class="inputHolder">
+            <!-- user check at least one -->
+            <input type="checkbox" name="m1" value="Reading"  id="r"/>Reading
+            <input type="checkbox" name="m2" value="Swimming" id="s" />Swimming
+            <input type="checkbox" name="m3" value="Eating" id="e" />Eating
+<span> </span>
+        </div>
+    </div>
+    <div class='mainContent'>
+        <div class='labelHolder'>
+            <input type="button" value="Validate" onclick="validate()">
+        </div>
+        <div class="inputHolder">
+            <input type="button" value="Clear" onclick="clearX()">
+          <span></span>
+
+
+        </div>
+    </div>
+    <div class='mainContent'>
+        <div class='labelHolder'>
+            <input type="button" value="Show in other window"  onclick="ShowWindow()">
+            <!-- the new window will show the full data of the user -->
+        </div>
+
+    </div>
+
+    <script src='day6.js'></script>
+</body>
+
+</html>

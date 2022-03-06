@@ -1,0 +1,27 @@
+#header {
+    color: red;
+}
+
+#container {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+.nameError {
+    color: red;
+}
+
+.errorInput {
+    border: 2px solid magenta;
+    padding: 10px;
+}
+
+.mainContent {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.labelHolder {
+    width: 10%;
+}
